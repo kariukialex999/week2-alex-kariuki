@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / helper scripts (not part of submission)
+generate_dirty_data.py
+build_notebook.py
+build_report.py
+
+# Generated PNGs (embedded in notebook already)
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
